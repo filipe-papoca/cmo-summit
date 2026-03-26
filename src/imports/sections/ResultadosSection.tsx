@@ -15,11 +15,6 @@ function Frame44() {
           <p className="leading-[normal]">Ver resultados</p>
         </div>
       </div>
-      <div className="content-stretch flex flex-col items-center pb-[2px] relative shrink-0 w-full" data-name="Component 2">
-        <div className="flex flex-col font-['Inter:Medium',sans-serif] font-medium justify-center leading-[0] not-italic relative shrink-0 text-[0px] text-[rgba(249,249,249,0.6)] whitespace-nowrap">
-          <p className="decoration-solid leading-[normal] text-[14px] underline">Ver resultados</p>
-        </div>
-      </div>
     </div>
   );
 }
