@@ -42,7 +42,7 @@ export default function SobreSection() {
     <div className="bg-[#191919] relative shrink-0 w-full" data-name="Section">
       <div className="content-stretch flex flex-col gap-[15px] items-start px-4 sm:px-8 lg:px-[75px] py-10 lg:py-[60px] relative w-full">
         <div className="h-[91px] overflow-clip relative shrink-0 w-[100px]" data-name="Layer_1">
-          <img alt="Logo Papoca" className="absolute max-w-none object-cover size-full" src={imgLogo} />
+          <img alt="Logo Papoca" className="absolute max-w-none object-cover max-h-[70px]" src={imgLogo} />
         </div>
         <div className="flex flex-col font-['Satoshi:Regular',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#f9f9f9] text-[14px] sm:text-[16px] w-full">
           <p className="leading-relaxed">
