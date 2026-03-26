@@ -7,6 +7,7 @@ import ResultadosSection from "./sections/ResultadosSection";
 import PorqueSection from "./sections/PorqueSection";
 import ServicosSection from "./sections/ServicosSection";
 import SobreSection from "./sections/SobreSection";
+import PalestraPierreSection from "./sections/PalestraPierreSection";
 
 function Group() {
   return (
@@ -1046,6 +1047,7 @@ export default function LpCmo() {
     <div className="bg-white content-stretch flex flex-col items-start relative size-full overflow-x-hidden" data-name="LP - CMO">
       <NavbarResponsive />
       <Header />
+      <PalestraPierreSection />
       <ResultadosSection />
       <PorqueSection />
       <ServicosSection />
