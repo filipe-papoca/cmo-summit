@@ -1,0 +1,19 @@
+@import './fonts.css';
+@import './tailwind.css';
+@import './theme.css';
+
+/* ─── Figma Make — custom utilities ───────────────────────────── */
+
+/* content-stretch: Figma exports this as a layout helper */
+.content-stretch {
+  align-content: stretch;
+}
+
+/* Fix: override broken Figma CSS variable references with safe defaults */
+/* --fill-0 and --stroke-0 are set per-component via style="" in Figma  */
+/* runtime; here we ensure they never break SVG rendering.              */
+:root {
+  --fill-0: currentColor;
+  --stroke-0: currentColor;
+  --list-marker-font-size: 1em;
+}

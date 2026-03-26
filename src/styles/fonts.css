@@ -1,0 +1,93 @@
+/* ─── Google Fonts ─────────────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap');
+
+/* ─── Satoshi via Fontshare ────────────────────────────────────── */
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500&display=swap');
+
+/* ─── Font Awesome 5 via CDN ───────────────────────────────────── */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+/* ─── Figma font-name aliases → real font families ────────────── */
+/* Figma exports font-family as 'FontName:Weight'; these aliases   */
+/* map those names to actual loaded fonts.                         */
+
+@font-face {
+  font-family: 'Inter:Semi_Bold';
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: local('Inter SemiBold'), local('Inter-SemiBold'), local('Inter');
+}
+
+@font-face {
+  font-family: 'Inter:Bold';
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: local('Inter Bold'), local('Inter-Bold'), local('Inter');
+}
+
+@font-face {
+  font-family: 'Inter:Black_Italic';
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+  src: local('Inter Black Italic'), local('Inter-BlackItalic'), local('Inter');
+}
+
+@font-face {
+  font-family: 'Satoshi:Medium';
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: local('Satoshi Medium'), local('Satoshi-Medium'), local('Satoshi');
+}
+
+@font-face {
+  font-family: 'Satoshi:Light';
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: local('Satoshi Light'), local('Satoshi-Light'), local('Satoshi');
+}
+
+@font-face {
+  font-family: 'Satoshi:Regular';
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: local('Satoshi Regular'), local('Satoshi-Regular'), local('Satoshi');
+}
+
+@font-face {
+  font-family: 'Inclusive_Sans:Regular';
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: local('Inclusive Sans Regular'), local('Inclusive Sans'), local('InclusiveSans');
+}
+
+@font-face {
+  font-family: 'Font_Awesome_5_Free:Regular';
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: local('Font Awesome 5 Free Regular'), local('Font Awesome 5 Free');
+}
+
+/* ─── CSS attribute fallback for Figma font classes ───────────── */
+/* Catches any element with a Figma-style font class and ensures  */
+/* the correct font-family is applied, regardless of @font-face.  */
+[class*="'Inter:"] {
+  font-family: 'Inter', sans-serif !important;
+}
+[class*="'Satoshi:"] {
+  font-family: 'Satoshi', 'Inter', sans-serif !important;
+}
+[class*="'Inclusive_Sans:"] {
+  font-family: 'Inclusive Sans', sans-serif !important;
+}
+[class*="'Font_Awesome_5_Free:"] {
+  font-family: 'Font Awesome 5 Free', sans-serif !important;
+}
