@@ -3,14 +3,10 @@ import svgPaths from "./svg-hjkq0v1ynh";
 import imgLogo from "@/assets/logo-papoca.png";
 import imgHero from "@/assets/hero-background.webp";
 
-import imgNeosaldina from "@/assets/neosaldina.png";
-import imgInter from "@/assets/inter.png";
-import imgZoop from "@/assets/zoop.png";
-
-import imgApenasUmMes from "@/assets/em-apenas-um-mes.png";
-import imgEmUmAno from "@/assets/em-um-ano.png";
-import imgUltimosTresMeses from "@/assets/ultimos-3-meses.png";
-
+import ResultadosSection from "./sections/ResultadosSection";
+import PorqueSection from "./sections/PorqueSection";
+import ServicosSection from "./sections/ServicosSection";
+import SobreSection from "./sections/SobreSection";
 
 function Group() {
   return (
@@ -777,66 +773,6 @@ function Titulo() {
   );
 }
 
-function Frame44() {
-  return (
-    <div className="content-stretch flex flex-col gap-[16px] items-center relative shrink-0 w-full">
-      <div className="bg-[#191919] content-stretch flex items-center justify-center pb-[10px] pt-[8px] px-[24px] relative shrink-0" data-name="CTA Papoca">
-        <div aria-hidden="true" className="absolute border-2 border-[#051a30] border-solid inset-0 pointer-events-none" />
-        <div className="flex flex-col font-['Inter:Semi_Bold',sans-serif] font-semibold justify-center leading-[0] not-italic relative shrink-0 text-[#f9f9f9] text-[20px] sm:text-[24px] lg:text-[28px] tracking-[-0.96px] sm:tracking-[-1.12px] whitespace-normal sm:whitespace-nowrap">
-          <p className="leading-[normal]">Ver resultados</p>
-        </div>
-      </div>
-      <div className="content-stretch flex flex-col items-center pb-[2px] relative shrink-0 w-full" data-name="Component 2">
-        <div className="flex flex-col font-['Inter:Medium',sans-serif] font-medium justify-center leading-[0] not-italic relative shrink-0 text-[0px] text-[rgba(249,249,249,0.6)] whitespace-nowrap">
-          <p className="decoration-solid leading-[normal] text-[14px] underline">Ver resultados</p>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-function Titulo1() {
-  return (
-    <div className="content-stretch flex md:flex-[1_0_0] w-full flex-col gap-6 text-center md:text-left md:gap-[40px] items-center justify-center min-h-px min-w-px relative" data-name="Título">
-      <div className="flex flex-col font-['Inter:Regular',sans-serif] font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#f9f9f9] text-[16px] w-full">
-        <p className="leading-[1.3]">Resultados recentes</p>
-      </div>
-      <div className="flex flex-col font-['Inter:Bold',sans-serif] font-bold justify-center leading-[0] not-italic relative shrink-0 text-[#f9f9f9] text-[0px] tracking-[-1.2px] w-full">
-        <p className="text-[26px] sm:text-[32px] lg:text-[40px]">
-          <span className="font-['Inter:Bold',sans-serif] font-bold leading-[1.2] not-italic tracking-[-1.2px]">Nunca foi sorte.</span>
-          <span className="leading-[1.2]">{` `}</span>
-          <span className="font-['Inter:Bold',sans-serif] font-bold leading-[1.2] not-italic text-[#f9f9f9] tracking-[-1.2px]">{`Sempre foi `}</span>
-          <span className="font-['Inter:Bold',sans-serif] font-bold leading-[1.2] not-italic text-[#191919] tracking-[-1.2px]">Papoca</span>
-          <span className="font-['Inter:Bold',sans-serif] font-bold leading-[1.2] not-italic text-[#f9f9f9] tracking-[-1.2px]">.</span>
-        </p>
-      </div>
-      <div className="flex flex-col font-['Inter:Light',sans-serif] font-light justify-center leading-[0] not-italic relative shrink-0 text-[#f9f9f9] text-[0px] tracking-[-0.32px] w-full">
-        <p className="text-[16px]">
-          <span className="leading-[1.4]">{`Inter, Zoop e Neosaldina não têm nada em comum. `}</span>
-          <span className="font-['Inter:Bold',sans-serif] font-bold leading-[1.4] not-italic tracking-[0.32px]">{`O que tem é resultado. `}</span>
-        </p>
-      </div>
-      <Frame44 />
-    </div>
-  );
-}
-
-function Frame47() {
-  return (
-    <div className="content-stretch flex flex-col items-start relative shrink-0 w-full">
-      <div className="flex flex-col font-['Inter:Bold',sans-serif] font-bold justify-center leading-[0] not-italic relative shrink-0 text-[#191919] text-[0px] w-full">
-        <p className="text-[32px]">
-          <span className="leading-[1.3]">
-            Resultado não é promessa.
-            <br aria-hidden="true" />
-          </span>
-          <span className="leading-[1.3] text-[#d92b8a]">É histórico.</span>
-        </p>
-      </div>
-    </div>
-  );
-}
-
 function Textos3() {
   return (
     <div className="absolute inset-[-0.02%_-0.02%_-0.08%_0]" data-name="Textos">
@@ -863,35 +799,6 @@ function Frame2() {
       <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col items-center justify-center relative size-full">
         <Inter1 />
       </div>
-    </div>
-  );
-}
-
-function Container4() {
-  return (
-    <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-name="Container">
-      <div className="flex flex-col font-['Inter:Black',sans-serif] font-black justify-center leading-[0] not-italic relative shrink-0 text-[#d92b8a] text-[42px] text-center w-full">
-        <p className="leading-[1.2]">+61%</p>
-      </div>
-    </div>
-  );
-}
-
-function Container5() {
-  return (
-    <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-name="Container">
-      <div className="flex flex-col font-['Inter:Regular',sans-serif] font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#191919] text-[12px] text-center w-full">
-        <p className="leading-[15.6px]">visibilidade em respostas de IA</p>
-      </div>
-    </div>
-  );
-}
-
-function Container3() {
-  return (
-    <div className="content-stretch flex flex-col items-center justify-center relative shrink-0 w-full" data-name="Container">
-      <Container4 />
-      <Container5 />
     </div>
   );
 }
@@ -2738,31 +2645,6 @@ function UmMes() {
   );
 }
 
-function Frame4() {
-  return (
-    <div className="min-h-px min-w-px relative w-full">
-      <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col items-center justify-center relative size-full">
-        <Container3 />
-      </div>
-    </div>
-  );
-}
-
-function Component1() {
-  return (
-    <div className="md:flex-[1_0_0] min-h-px min-w-px relative rounded-[2px]" data-name="Component 5">
-      <div aria-hidden="true" className="absolute border border-[#d92b8a] border-solid inset-0 pointer-events-none rounded-[2px]" />
-      <div className="flex flex-col items-center size-full">
-        <div className="content-stretch flex flex-col gap-[16px] items-center px-[9px] py-[17px] relative size-full">
-          <img alt="Logo Inter" src={imgInter} className="max-w-full h-auto" />
-          <Frame4 />
-          <img alt="61% em apenas um mês" src={imgApenasUmMes} className="max-w-full h-auto" />
-        </div>
-      </div>
-    </div>
-  );
-}
-
 function Group29() {
   return (
     <div className="absolute inset-[0_-0.01%_0.03%_-0.01%]" data-name="Group">
@@ -2817,35 +2699,6 @@ function Frame5() {
       <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col items-center justify-center relative w-full">
         <Zoop1 />
       </div>
-    </div>
-  );
-}
-
-function Container7() {
-  return (
-    <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-name="Container">
-      <div className="flex flex-col font-['Inter:Black',sans-serif] font-black justify-center leading-[0] not-italic relative shrink-0 text-[#d92b8a] text-[42px] text-center w-full">
-        <p className="leading-[1.2]">+70%</p>
-      </div>
-    </div>
-  );
-}
-
-function Container8() {
-  return (
-    <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-name="Container">
-      <div className="flex flex-col font-['Inter:Regular',sans-serif] font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#191919] text-[12px] text-center w-full">
-        <p className="leading-[15.6px]">termos ranqueados no Top 10</p>
-      </div>
-    </div>
-  );
-}
-
-function Container6() {
-  return (
-    <div className="content-stretch flex flex-col items-center justify-center relative shrink-0 w-full" data-name="Container">
-      <Container7 />
-      <Container8 />
     </div>
   );
 }
@@ -6601,31 +6454,6 @@ function Component3Meses() {
   );
 }
 
-function Frame6() {
-  return (
-    <div className="min-h-px min-w-px relative w-full">
-      <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col gap-[7px] items-center relative size-full">
-        <Container6 />
-      </div>
-    </div>
-  );
-}
-
-function Component2() {
-  return (
-    <div className="md:flex-[1_0_0] min-h-px min-w-px relative rounded-[2px] self-stretch" data-name="Component 6">
-      <div aria-hidden="true" className="absolute border border-[#d92b8a] border-solid inset-0 pointer-events-none rounded-[2px]" />
-      <div className="flex flex-col items-center size-full">
-        <div className="content-stretch flex flex-col gap-[16px] items-center px-[9px] py-[17px] relative size-full">
-          <img alt="Logo Zoop" src={imgZoop} className="max-w-full h-auto" />
-          <Frame6 />
-          <img alt="70% em três meses" src={imgUltimosTresMeses} className="max-w-full h-auto" />
-        </div>
-      </div>
-    </div>
-  );
-}
-
 function Group56() {
   return (
     <div className="absolute inset-[0_-0.01%_0_0]" data-name="Group">
@@ -6662,35 +6490,6 @@ function Frame8() {
       <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col items-center justify-center relative size-full">
         <Neosaldina1 />
       </div>
-    </div>
-  );
-}
-
-function Container10() {
-  return (
-    <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-name="Container">
-      <div className="flex flex-col font-['Inter:Black',sans-serif] font-black justify-center leading-[0] not-italic relative shrink-0 text-[#d92b8a] text-[42px] text-center w-full">
-        <p className="leading-[1.2]">+109%</p>
-      </div>
-    </div>
-  );
-}
-
-function Container11() {
-  return (
-    <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-name="Container">
-      <div className="flex flex-col font-['Inter:Regular',sans-serif] font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#191919] text-[12px] text-center w-full">
-        <p className="leading-[15.6px]">volume de conversões</p>
-      </div>
-    </div>
-  );
-}
-
-function Container9() {
-  return (
-    <div className="content-stretch flex flex-col items-center justify-center relative shrink-0 w-full" data-name="Container">
-      <Container10 />
-      <Container11 />
     </div>
   );
 }
@@ -7203,67 +7002,6 @@ function EmUmAno() {
   );
 }
 
-function Frame9() {
-  return (
-    <div className="min-h-px min-w-px relative w-full">
-      <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col gap-[10px] items-center relative size-full">
-        <Container9 />
-      </div>
-    </div>
-  );
-}
-
-function Component() {
-  return (
-    <div className="md:flex-[1_0_0] min-h-px min-w-px relative rounded-[2px] self-stretch" data-name="Component 3">
-      <div aria-hidden="true" className="absolute border border-[#d92b8a] border-solid inset-0 pointer-events-none rounded-[2px]" />
-      <div className="flex flex-col items-center size-full">
-        <div className="content-stretch flex flex-col gap-[16px] items-center px-[9px] py-[17px] relative size-full">
-          <img alt="Logo Neosaldina" src={imgNeosaldina} className="max-w-full h-auto" />
-          <Frame9 />
-          <img alt="109% em um ano" src={imgEmUmAno} className="max-w-full h-auto" />
-        </div>
-      </div>
-    </div>
-  );
-}
-
-function Frame1() {
-  return (
-    <div className="flex flex-col md:flex-row gap-6 md:gap-[24px] items-stretch md:items-start relative shrink-0 w-full">
-      <Component1 />
-      <Component2 />
-      <Component />
-    </div>
-  );
-}
-
-function Frame48() {
-  return (
-    <div className="content-stretch flex flex-col items-start justify-center relative shrink-0 w-full">
-      <Frame1 />
-    </div>
-  );
-}
-
-function Espaco1() {
-  return (
-    <div className="bg-[#f9f9f9] content-stretch flex flex-col gap-[24px] items-start overflow-clip p-[24px] relative shrink-0 w-full lg:w-[596px]" data-name="Espaço">
-      <Frame47 />
-      <Frame48 />
-    </div>
-  );
-}
-
-function Section5() {
-  return (
-    <div id="resultados" className="bg-[#d92b8a] w-full content-stretch flex flex-col lg:flex-row gap-6 lg:gap-[24px] items-start px-4 sm:px-8 lg:px-[75px] py-10 lg:py-[80px] relative shrink-0 w-full max-w-[1366px] mx-auto" data-name="Section 11">
-      <Titulo1 />
-      <Espaco1 />
-    </div>
-  );
-}
-
 function Container12() {
   return (
     <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-name="Container">
@@ -7570,417 +7308,6 @@ function Titulo2() {
   );
 }
 
-function Section6() {
-  return (
-    <div className="bg-[#f9f9f9] content-stretch flex items-center justify-center px-4 sm:px-8 lg:px-[75px] py-10 lg:py-[80px] relative shrink-0 w-full max-w-[1366px] mx-auto" data-name="Section 12">
-      <Titulo2 />
-    </div>
-  );
-}
-
-function Section1() {
-  return (
-    <div className="content-stretch flex flex-[1_0_0] flex-col gap-[40px] h-full items-start min-h-px min-w-px relative" data-name="Section">
-      <div className="flex flex-col font-['Inter:Regular',sans-serif] font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#f9f9f9] text-[16px] w-full">
-        <p className="leading-[1.3]">Serviços</p>
-      </div>
-      <div className="flex flex-col font-['Inter:Bold',sans-serif] font-bold justify-center leading-[0] not-italic relative shrink-0 text-[#d92b8a] text-[0px] text-[32px] sm:text-[40px] tracking-[-1.2px] w-full">
-        <p className="leading-[1.2] mb-0 text-[#f9f9f9]">Tudo que você</p>
-        <p>
-          <span className="leading-[1.2] text-[#f9f9f9]">{`precisa para `}</span>
-          <span className="leading-[1.2]">{`SEO, GEO `}</span>
-          <span className="leading-[1.2] text-[#f9f9f9]">e conteúdo.</span>
-        </p>
-      </div>
-      <div className="flex flex-col font-['Inter:Light',sans-serif] font-light justify-center leading-[0] not-italic relative shrink-0 text-[#f9f9f9] text-[14px] sm:text-[16px] w-full">
-        <p className="leading-[1.4]">
-          Sem pacotes genéricos. Cada escopo é desenhado a partir do diagnóstico do seu negócio.
-        </p>
-      </div>
-      <div className="bg-[#d92b8a] content-stretch flex items-center justify-center pb-[10px] pt-[8px] px-[24px] relative shrink-0 w-full lg:w-[413px]" data-name="CTA Papoca">
-        <div aria-hidden="true" className="absolute border-2 border-[#d92b8a] border-solid inset-0 pointer-events-none" />
-        <div className="flex flex-[1_0_0] flex-col font-['Inter:Semi_Bold',sans-serif] font-semibold justify-center leading-[0] min-h-px min-w-px not-italic relative text-[#f9f9f9] text-[20px] sm:text-[24px] lg:text-[28px] tracking-[-0.96px] sm:tracking-[-1.12px] text-center sm:text-left">
-          <p className="leading-[normal]">Conversar sobre meu projeto</p>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-function Frame58() {
-  return (
-    <div className="h-[20px] relative shrink-0 w-full">
-      <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 596.5 20">
-        <g clipPath="url(#clip0_1_1697)" id="Frame 56">
-          <path d="M0 10H596.5" id="Vector 5" stroke="var(--stroke-0, #F9F9F9)" strokeOpacity="0.25" />
-        </g>
-        <defs>
-          <clipPath id="clip0_1_1697">
-            <rect fill="white" height="20" width="596.5" />
-          </clipPath>
-        </defs>
-      </svg>
-    </div>
-  );
-}
-
-function Frame59() {
-  return (
-    <div className="h-[20px] relative shrink-0 w-full">
-      <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 596.5 20">
-        <g clipPath="url(#clip0_1_1697)" id="Frame 56_2">
-          <path d="M0 10H596.5" id="Vector 5_2" stroke="var(--stroke-0, #F9F9F9)" strokeOpacity="0.25" />
-        </g>
-        <defs>
-          <clipPath id="clip0_1_1697_2">
-            <rect fill="white" height="20" width="596.5" />
-          </clipPath>
-        </defs>
-      </svg>
-    </div>
-  );
-}
-
-function Frame60() {
-  return (
-    <div className="h-[20px] relative shrink-0 w-full">
-      <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 596.5 20">
-        <g clipPath="url(#clip0_1_1697)" id="Frame 56_3">
-          <path d="M0 10H596.5" id="Vector 5_3" stroke="var(--stroke-0, #F9F9F9)" strokeOpacity="0.25" />
-        </g>
-        <defs>
-          <clipPath id="clip0_1_1697_3">
-            <rect fill="white" height="20" width="596.5" />
-          </clipPath>
-        </defs>
-      </svg>
-    </div>
-  );
-}
-
-function Frame61() {
-  return (
-    <div className="h-[20px] relative shrink-0 w-full">
-      <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 596.5 20">
-        <g clipPath="url(#clip0_1_1697)" id="Frame 56_4">
-          <path d="M0 10H596.5" id="Vector 5_4" stroke="var(--stroke-0, #F9F9F9)" strokeOpacity="0.25" />
-        </g>
-        <defs>
-          <clipPath id="clip0_1_1697_4">
-            <rect fill="white" height="20" width="596.5" />
-          </clipPath>
-        </defs>
-      </svg>
-    </div>
-  );
-}
-
-function Frame62() {
-  return (
-    <div className="h-[20px] relative shrink-0 w-full">
-      <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 596.5 20">
-        <g clipPath="url(#clip0_1_1697)" id="Frame 56_5">
-          <path d="M0 10H596.5" id="Vector 5_5" stroke="var(--stroke-0, #F9F9F9)" strokeOpacity="0.25" />
-        </g>
-        <defs>
-          <clipPath id="clip0_1_1697_5">
-            <rect fill="white" height="20" width="596.5" />
-          </clipPath>
-        </defs>
-      </svg>
-    </div>
-  );
-}
-
-function Frame63() {
-  return (
-    <div className="h-[20px] relative shrink-0 w-full">
-      <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 596.5 20">
-        <g clipPath="url(#clip0_1_1697)" id="Frame 56_6">
-          <path d="M0 10H596.5" id="Vector 5_6" stroke="var(--stroke-0, #F9F9F9)" strokeOpacity="0.25" />
-        </g>
-        <defs>
-          <clipPath id="clip0_1_1697_6">
-            <rect fill="white" height="20" width="596.5" />
-          </clipPath>
-        </defs>
-      </svg>
-    </div>
-  );
-}
-
-function Frame64() {
-  return (
-    <div className="h-[20px] relative shrink-0 w-full">
-      <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 596.5 20">
-        <g clipPath="url(#clip0_1_1697)" id="Frame 56_7">
-          <path d="M0 10H596.5" id="Vector 5_7" stroke="var(--stroke-0, #F9F9F9)" strokeOpacity="0.25" />
-        </g>
-        <defs>
-          <clipPath id="clip0_1_1697_7">
-            <rect fill="white" height="20" width="596.5" />
-          </clipPath>
-        </defs>
-      </svg>
-    </div>
-  );
-}
-
-function Frame65() {
-  return (
-    <div className="h-[20px] relative shrink-0 w-full">
-      <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 596.5 20">
-        <g clipPath="url(#clip0_1_1697)" id="Frame 56_8">
-          <path d="M0 10H596.5" id="Vector 5_8" stroke="var(--stroke-0, #F9F9F9)" strokeOpacity="0.25" />
-        </g>
-        <defs>
-          <clipPath id="clip0_1_1697_8">
-            <rect fill="white" height="20" width="596.5" />
-          </clipPath>
-        </defs>
-      </svg>
-    </div>
-  );
-}
-
-function Frame17() {
-  return (
-    <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start justify-center min-h-px min-w-px relative">
-      <div className="content-stretch flex items-center justify-between overflow-clip relative shrink-0 w-full">
-        <div className="flex flex-[1_0_0] flex-col font-['Inter:Bold',sans-serif] font-bold justify-center leading-[0] min-h-px min-w-px not-italic relative text-[#d92b8a] text-[0px] tracking-[-0.48px]">
-          <ul>
-            <li className="list-disc ms-[calc(var(--list-marker-font-size,0)*1.5*1)] text-[16px]">
-              <span className="leading-[1.4]">{`GEO `}</span>
-              <span className="leading-[1.4] text-[#d92b8a]">- diagnóstico, monitoramento e otimização de presença em IA</span>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <Frame58 />
-      <div className="content-stretch flex flex-col items-center justify-center overflow-clip relative shrink-0 w-full">
-        <div className="flex flex-col font-['Inter:Bold',sans-serif] font-bold justify-center leading-[0] not-italic relative shrink-0 text-[#f9f9f9] text-[16px] tracking-[0.32px] w-full">
-          <ul>
-            <li className="list-disc ms-[24px]">
-              <span className="leading-[1.4]">Consultoria e planejamento de SEO</span>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <Frame59 />
-      <div className="content-stretch flex flex-col items-center justify-center overflow-clip relative shrink-0 w-full">
-        <div className="flex flex-col font-['Inter:Bold',sans-serif] font-bold justify-center leading-[0] not-italic relative shrink-0 text-[#f9f9f9] text-[16px] tracking-[0.32px] w-full">
-          <ul>
-            <li className="list-disc ms-[24px]">
-              <span className="leading-[1.4]">SEO técnico on-page e off-page</span>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <Frame60 />
-      <div className="content-stretch flex flex-col items-center justify-center overflow-clip relative shrink-0 w-full">
-        <div className="flex flex-col font-['Inter:Bold',sans-serif] font-bold justify-center leading-[0] not-italic relative shrink-0 text-[#f9f9f9] text-[16px] tracking-[0.32px] w-full">
-          <ul>
-            <li className="list-disc ms-[24px]">
-              <span className="leading-[1.4]">Produção e otimização de conteúdo</span>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <Frame61 />
-      <div className="content-stretch flex flex-col items-center justify-center overflow-clip relative shrink-0 w-full">
-        <div className="flex flex-col font-['Inter:Bold',sans-serif] font-bold justify-center leading-[0] not-italic relative shrink-0 text-[#f9f9f9] text-[16px] tracking-[0.32px] w-full">
-          <ul>
-            <li className="list-disc ms-[24px]">
-              <span className="leading-[1.4]">Link building</span>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <Frame62 />
-      <div className="content-stretch flex flex-col items-center justify-center overflow-clip relative shrink-0 w-full">
-        <div className="flex flex-col font-['Inter:Bold',sans-serif] font-bold justify-center leading-[0] not-italic relative shrink-0 text-[#f9f9f9] text-[16px] tracking-[0.32px] w-full">
-          <ul>
-            <li className="list-disc ms-[24px]">
-              <span className="leading-[1.4]">Ebooks, infográficos, imagens e vídeos</span>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <Frame63 />
-      <div className="content-stretch flex flex-col items-center justify-center overflow-clip relative shrink-0 w-full">
-        <div className="flex flex-col font-['Inter:Bold',sans-serif] font-bold justify-center leading-[0] not-italic relative shrink-0 text-[#f9f9f9] text-[16px] tracking-[0.32px] w-full">
-          <ul>
-            <li className="list-disc ms-[24px]">
-              <span className="leading-[1.4]">Web analytics</span>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <Frame64 />
-      <div className="content-stretch flex flex-col items-center justify-center overflow-clip relative shrink-0 w-full">
-        <div className="flex flex-col font-['Inter:Bold',sans-serif] font-bold justify-center leading-[0] not-italic relative shrink-0 text-[#f9f9f9] text-[16px] tracking-[0.32px] w-full">
-          <ul>
-            <li className="list-disc ms-[24px]">
-              <span className="leading-[1.4]">Criação de landing pages</span>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <Frame65 />
-      <div className="content-stretch flex flex-col items-center justify-center overflow-clip relative shrink-0 w-full">
-        <div className="flex flex-col font-['Inter:Bold',sans-serif] font-bold justify-center leading-[0] not-italic relative shrink-0 text-[#f9f9f9] text-[16px] tracking-[0.32px] w-full">
-          <ul>
-            <li className="list-disc ms-[24px]">
-              <span className="leading-[1.4]">Redatores nativos em PT, ES, EN e FR</span>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-function Frame16() {
-  return (
-    <div className="content-stretch flex flex-col lg:flex-row gap-6 lg:gap-[23px] items-start lg:items-center relative shrink-0 w-full">
-      <div className="flex flex-[1_0_0] flex-row items-center self-stretch">
-        <Section1 />
-      </div>
-      <Frame17 />
-    </div>
-  );
-}
-
-function Section() {
-  return (
-    <section
-      id="servicos"
-      className="bg-[#191919] px-4 sm:px-8 lg:px-[75px] py-10 lg:py-[80px] w-full"
-      data-name="Section"
-    >
-      <div className="max-w-[1366px] mx-auto grid gap-10 lg:grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)] items-start">
-        <div className="flex flex-col gap-[24px]">
-          <div className="flex flex-col font-['Inter:Regular',sans-serif] font-normal justify-center leading-[0] not-italic text-[#f9f9f9] text-[16px] w-full">
-            <p className="leading-[1.3]">Serviços</p>
-          </div>
-          <div className="flex flex-col font-['Inter:Bold',sans-serif] font-bold justify-center leading-[0] not-italic text-[#d92b8a] text-[0px] text-[32px] sm:text-[40px] tracking-[-1.2px] w-full">
-            <p className="leading-[1.2] mb-0 text-[#f9f9f9]">Tudo que você</p>
-            <p>
-              <span className="leading-[1.2] text-[#f9f9f9]">{`precisa para `}</span>
-              <span className="leading-[1.2]">{`SEO, GEO `}</span>
-              <span className="leading-[1.2] text-[#f9f9f9]">e conteúdo.</span>
-            </p>
-          </div>
-          <div className="flex flex-col font-['Inter:Light',sans-serif] font-light justify-center leading-[0] not-italic text-[#f9f9f9] text-[14px] sm:text-[16px] w-full">
-            <p className="leading-[1.4]">
-              Sem pacotes genéricos. Cada escopo é desenhado a partir do diagnóstico do seu negócio.
-            </p>
-          </div>
-          <div className="bg-[#d92b8a] content-stretch flex items-center justify-center pb-[10px] pt-[8px] px-[24px] relative shrink-0 w-full lg:w-[413px]" data-name="CTA Papoca">
-            <div aria-hidden="true" className="absolute border-2 border-[#d92b8a] border-solid inset-0 pointer-events-none" />
-            <div className="flex flex-[1_0_0] flex-col font-['Inter:Semi_Bold',sans-serif] font-semibold justify-center leading-[0] min-h-px min-w-px not-italic relative text-[#f9f9f9] text-[20px] sm:text-[24px] lg:text-[28px] tracking-[-0.96px] sm:tracking-[-1.12px] text-center sm:text-left">
-              <p className="leading-[normal]">Conversar sobre meu projeto</p>
-            </div>
-          </div>
-        </div>
-        <div className="flex flex-col gap-[16px]">
-          <p className="font-['Inter:Bold',sans-serif] font-bold text-[#d92b8a] text-[16px] leading-[1.4]">
-            <span>{`GEO `}</span>
-            <span className="text-[#d92b8a]">- diagnóstico, monitoramento e otimização de presença em IA</span>
-          </p>
-          <ul className="space-y-2 font-['Inter:Bold',sans-serif] font-bold text-[#f9f9f9] text-[16px] leading-[1.4]">
-            <li className="list-disc ms-6">Consultoria e planejamento de SEO</li>
-            <li className="list-disc ms-6">SEO técnico on-page e off-page</li>
-            <li className="list-disc ms-6">Produção e otimização de conteúdo</li>
-            <li className="list-disc ms-6">Link building</li>
-            <li className="list-disc ms-6">Ebooks, infográficos, imagens e vídeos</li>
-            <li className="list-disc ms-6">Web analytics</li>
-            <li className="list-disc ms-6">Criação de landing pages</li>
-            <li className="list-disc ms-6">Redatores nativos em PT, ES, EN e FR</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-  );
-}
-
-function Group83() {
-  return (
-    <div className="absolute inset-[0_9.08%_0_0]" data-name="Group">
-      <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 90.9237 91">
-        <g id="Group_29">
-          <path d="M45.4458 0H0V91H45.4458V0Z" fill="var(--fill-0, #F9F9F9)" id="Vector_748" />
-          <g id="Group_2_2">
-            <path d={svgPaths.p719c600} fill="var(--fill-0, #F9F9F9)" id="Vector_2_29" />
-            <path d={svgPaths.p28fd0d00} fill="var(--fill-0, #F9F9F9)" id="Vector_3_29" />
-            <path d={svgPaths.p30284000} fill="var(--fill-0, #F9F9F9)" id="Vector_4_27" />
-            <path d={svgPaths.p38bb5080} fill="var(--fill-0, #F9F9F9)" id="Vector_5_27" />
-            <path d={svgPaths.p3d7f7e80} fill="var(--fill-0, #F9F9F9)" id="Vector_6_27" />
-            <path d={svgPaths.p35291d80} fill="var(--fill-0, #F9F9F9)" id="Vector_7_27" />
-          </g>
-        </g>
-      </svg>
-    </div>
-  );
-}
-
-function Heading2Link() {
-  return (
-    <div className="content-stretch flex flex-col items-start py-[2px] relative shrink-0" data-name="Heading 2 → Link">
-      <div className="flex flex-col font-['Satoshi:Light',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-white whitespace-nowrap">
-        <p className="leading-[14px]">© {new Date().getFullYear()} Agência Papoca</p>
-      </div>
-    </div>
-  );
-}
-
-function ListItemLink() {
-  return (
-    <div className="content-stretch flex flex-[1_0_0] gap-[5px] isolate items-center justify-end leading-[0] min-h-px min-w-px not-italic relative text-right text-white whitespace-nowrap" data-name="List → Item → Link">
-      <div className="flex flex-col font-['Font_Awesome_5_Free:Regular',sans-serif] justify-center relative shrink-0 text-[14px] z-[2]">
-        <p className="leading-[14px]"></p>
-      </div>
-      <div className="flex flex-col font-['Satoshi:Regular',sans-serif] justify-center relative shrink-0 text-[16px] z-[1]">
-        <p className="leading-[24px]">contato@agenciapapoca.com.br</p>
-      </div>
-    </div>
-  );
-}
-
-function Section3() {
-  return (
-    <div className="relative shrink-0 w-full" data-name="Section">
-      <div className="flex flex-row items-center size-full">
-        <div className="content-stretch flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 pb-[10px] pt-[30px] px-[10px] relative w-full">
-          <Heading2Link />
-          <ListItemLink />
-        </div>
-      </div>
-    </div>
-  );
-}
-
-function Section2() {
-  return (
-    <div className="bg-[#191919] relative shrink-0 w-full" data-name="Section">
-      <div className="content-stretch flex flex-col gap-[15px] items-start px-4 sm:px-8 lg:px-[75px] py-10 lg:py-[60px] relative w-full">
-        <div className="h-[91px] overflow-clip relative shrink-0 w-[100px]" data-name="Layer_1">
-          <img alt="Logo Papoca" className="absolute max-w-none object-cover size-full" src={imgLogo} />
-        </div>
-        <div className="flex flex-col font-['Satoshi:Regular',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#f9f9f9] text-[14px] sm:text-[16px] w-full">
-          <p className="leading-relaxed">
-            Somos uma agência boutique. Unimos consultoria em SEO e excelência em criação de conteúdo​. Possuímos equipes especializadas em SEO, Marketing de Conteúdo e Inbound Marketing para fazer sua empresa crescer.
-          </p>
-        </div>
-        <div className="h-px relative shrink-0 w-full" data-name="Horizontal Divider">
-          <div aria-hidden="true" className="absolute border-[rgba(255,255,255,0.25)] border-solid border-t inset-0 pointer-events-none" />
-        </div>
-        <Section3 />
-      </div>
-    </div>
-  );
-}
-
 function NavbarResponsive() {
   const [open, setOpen] = React.useState(false);
   return (
@@ -8013,10 +7340,10 @@ export default function LpCmo() {
     <div className="bg-white content-stretch flex flex-col items-start relative size-full overflow-x-hidden" data-name="LP - CMO">
       <NavbarResponsive />
       <Header />
-      <Section5 />
-      <Section6 />
-      <Section />
-      <Section2 />
+      <ResultadosSection />
+      <PorqueSection />
+      <ServicosSection />
+      <SobreSection />
     </div>
   );
 }
