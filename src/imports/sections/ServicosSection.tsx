@@ -25,12 +25,14 @@ export default function ServicosSection() {
               Sem pacotes genéricos. Cada escopo é desenhado a partir do diagnóstico do seu negócio.
             </p>
           </div>
-          <div className="bg-[#d92b8a] content-stretch flex items-center justify-center pb-[10px] pt-[8px] px-[24px] relative shrink-0 w-full lg:w-[413px]" data-name="CTA Papoca">
-            <div aria-hidden="true" className="absolute border-2 border-[#d92b8a] border-solid inset-0 pointer-events-none" />
-            <div className="flex flex-[1_0_0] flex-col font-['Inter:Semi_Bold',sans-serif] font-semibold justify-center leading-[0] min-h-px min-w-px not-italic relative text-[#f9f9f9] text-[20px] sm:text-[24px] lg:text-[28px] tracking-[-0.96px] sm:tracking-[-1.12px] text-center sm:text-left">
-              <p className="leading-[normal]">Conversar sobre meu projeto</p>
+          <a href="#lead-form" className="w-full lg:w-[413px]">
+            <div className="bg-[#d92b8a] content-stretch flex items-center justify-center pb-[10px] pt-[8px] px-[24px] relative shrink-0 w-full" data-name="CTA Papoca">
+              <div aria-hidden="true" className="absolute border-2 border-[#d92b8a] border-solid inset-0 pointer-events-none" />
+              <div className="flex flex-[1_0_0] flex-col font-['Inter:Semi_Bold',sans-serif] font-semibold justify-center leading-[0] min-h-px min-w-px not-italic relative text-[#f9f9f9] text-[20px] sm:text-[24px] lg:text-[28px] tracking-[-0.96px] sm:tracking-[-1.12px] text-center sm:text-left">
+                <p className="leading-[normal]">Conversar sobre meu projeto</p>
+              </div>
             </div>
-          </div>
+          </a>
         </div>
         <div className="flex flex-col gap-[16px]">
           <p className="font-['Inter:Bold',sans-serif] font-bold text-[#d92b8a] text-[16px] leading-[1.4]">
@@ -52,4 +54,3 @@ export default function ServicosSection() {
     </section>
   );
 }
-

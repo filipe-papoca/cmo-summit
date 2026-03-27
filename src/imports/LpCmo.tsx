@@ -21,18 +21,16 @@ function Group() {
 function Frame7() {
   return (
     <div className="content-stretch flex flex-[1_0_0] gap-[16px] items-center justify-center sm:justify-end min-h-px min-w-px overflow-clip relative">
-      <div
+      <a
+        href="#lead-form"
         className="bg-[#d92b8a] content-stretch flex items-center justify-center pb-[10px] pt-[8px] px-[24px] relative shrink-0"
         data-name="CTA Papoca"
       >
-        <div
-          aria-hidden="true"
-          className="absolute border-2 border-[#d92b8a] border-solid inset-0 pointer-events-none"
-        />
+        <div aria-hidden="true" className="absolute border-2 border-[#d92b8a] border-solid inset-0 pointer-events-none" />
         <div className="flex flex-col font-['Inter:Semi_Bold',sans-serif] font-semibold justify-center leading-[0] not-italic relative shrink-0 text-[#f9f9f9] text-[18px] sm:text-[20px] lg:text-[24px] tracking-[-0.72px] sm:tracking-[-0.96px] whitespace-normal sm:whitespace-nowrap">
           <p className="leading-[normal]">Fale conosco</p>
         </div>
-      </div>
+      </a>
     </div>
   );
 }
@@ -265,7 +263,19 @@ function Frame18() {
                 <div className="relative rounded-[16px]">
                   <div className="overflow-clip rounded-[inherit]">
                     <div className="p-3">
-                      <input id="mce-FNAME" name="FNAME" type="text" className="w-full bg-transparent outline-none text-[#f9f9f9] placeholder-[#5d5d5d]" placeholder="Seu nome" />
+                      <input
+                        id="mce-FNAME"
+                        name="FNAME"
+                        type="text"
+                        pattern="^[A-Za-zÀ-ÖØ-öø-ÿ\s]+$"
+                        title="Use apenas letras"
+                        className="w-full bg-transparent outline-none text-[#f9f9f9] placeholder-[#5d5d5d]"
+                        placeholder="Seu nome"
+                        onChange={(e) => {
+                          const onlyLetters = e.target.value.replace(/[^A-Za-zÀ-ÖØ-öø-ÿ\s]/g, "");
+                          e.target.value = onlyLetters;
+                        }}
+                      />
                     </div>
                   </div>
                   <div aria-hidden="true" className="absolute border border-[#f9f9f9] inset-0 pointer-events-none rounded-[16px]" />
@@ -289,7 +299,26 @@ function Frame18() {
                 <div className="relative rounded-[16px]">
                   <div className="overflow-clip rounded-[inherit]">
                     <div className="p-3">
-                      <input id="mce-MMERGE9" name="MMERGE9" type="text" className="w-full bg-transparent outline-none text-[#f9f9f9] placeholder-[#5d5d5d]" placeholder="(00) 00000-0000" />
+                      <input
+                        id="mce-MMERGE9"
+                        name="MMERGE9"
+                        type="text"
+                        inputMode="numeric"
+                        pattern="^\(\d{2}\)\s9\d{4}-\d{4}$"
+                        title="Use o formato (11) 99999-9999"
+                        className="w-full bg-transparent outline-none text-[#f9f9f9] placeholder-[#5d5d5d]"
+                        placeholder="(11) 99999-9999"
+                        onChange={(e) => {
+                          const digits = e.target.value.replace(/\D/g, "").slice(0, 11);
+                          let formatted = digits;
+                          if (digits.length > 2 && digits.length <= 7) {
+                            formatted = `(${digits.slice(0, 2)}) ${digits.slice(2)}`;
+                          } else if (digits.length > 7) {
+                            formatted = `(${digits.slice(0, 2)}) ${digits.slice(2, 7)}-${digits.slice(7)}`;
+                          }
+                          e.target.value = formatted;
+                        }}
+                      />
                     </div>
                   </div>
                   <div aria-hidden="true" className="absolute border border-[#f9f9f9] inset-0 pointer-events-none rounded-[16px]" />
@@ -334,7 +363,7 @@ function Frame18() {
 
 function Frame20() {
   return (
-    <div className="content-stretch flex flex-col items-start relative shrink-0 w-full">
+    <div id="lead-form" className="content-stretch flex flex-col items-start relative shrink-0 w-full">
       <Frame18 />
     </div>
   );
@@ -1531,7 +1560,7 @@ function NavbarResponsive() {
       {open && (
         <div className="lg:hidden bg-[#191919] px-6 pb-6 flex flex-col gap-4">
           <a
-            href="#contato"
+            href="#lead-form"
             className="text-white font-semibold text-lg"
             onClick={() => setOpen(false)}
           >
