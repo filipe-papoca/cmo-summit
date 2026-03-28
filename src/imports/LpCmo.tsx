@@ -82,57 +82,6 @@ function Container1() {
   );
 }
 
-function Container() {
-  return (
-    <div
-      className="content-stretch flex items-center relative shrink-0 w-full"
-      data-name="Container"
-    >
-      <Container1 />
-    </div>
-  );
-}
-
-function BlocoEsquerdo1() {
-  return (
-    <div
-      className="content-stretch flex flex-[1_0_0] flex-col items-start min-h-px min-w-px overflow-clip relative"
-      data-name="Bloco esquerdo"
-    >
-      <Container />
-    </div>
-  );
-}
-
-function PrimeiraSecao1() {
-  return (
-    <div
-      className="content-stretch flex items-start relative shrink-0 w-full"
-      data-name="Primeira seção"
-    >
-      <BlocoEsquerdo1 />
-    </div>
-  );
-}
-
-function Frame() {
-  return (
-    <div className="content-stretch flex flex-col gap-[16px] items-start leading-[0] not-italic relative shrink-0 text-[#f9f9f9] w-full">
-      <div className="flex flex-col font-['Inter:Bold',sans-serif] font-bold justify-center relative shrink-0 text-[36px] sm:text-[56px] xl:text-[80px] tracking-[-1px] sm:tracking-[-2.88px] w-full">
-        <p className="leading-[1.1]">Condições especiais</p>
-      </div>
-      <div className="flex flex-col font-['Satoshi:Medium',sans-serif] justify-center relative shrink-0 text-[0px] tracking-[-0.5px] sm:tracking-[-2.16px] w-full">
-        <p className="text-[#d92b8a] text-[22px] sm:text-[32px] xl:text-[44px]">
-          <span className="font-['Inter:Regular',sans-serif] font-normal leading-[1.4]">{`para participantes do `}</span>
-          <span className="font-['Inter:Bold',sans-serif] font-bold leading-[1.4]">
-            CMO Summit®
-          </span>
-        </p>
-      </div>
-    </div>
-  );
-}
-
 function Frame41() {
   return (
     <div className="relative shrink-0 size-[22px]">
@@ -144,55 +93,6 @@ function Frame41() {
       >
         <g id="Frame 45">
           <path d={svgPaths.pef7d600} fill="#D92B8A" id="â" />
-        </g>
-      </svg>
-    </div>
-  );
-}
-
-function Paragraph() {
-  return (
-    <div
-      className="content-stretch flex gap-[12px] items-start relative shrink-0 w-full"
-      data-name="Paragraph"
-    >
-      <Frame41 />
-      <div className="flex flex-[1_0_0] flex-col font-['Inter:Light',sans-serif] font-light justify-center leading-[0] min-h-px min-w-px not-italic relative text-[#f9f9f9] text-[16px] tracking-[-0.32px]">
-        <p className="leading-[1.4]">
-          Atendimento direto com os fundadores nos dois dias do evento
-        </p>
-      </div>
-    </div>
-  );
-}
-
-function Paragraph1() {
-  return (
-    <div
-      className="content-stretch flex gap-[12px] items-start relative shrink-0 w-full"
-      data-name="Paragraph"
-    >
-      <Frame41 />
-      <div className="flex flex-[1_0_0] flex-col font-['Inter:Light',sans-serif] font-light justify-center leading-[0] min-h-px min-w-px not-italic relative text-[#f9f9f9] text-[16px] tracking-[-0.32px]">
-        <p className="leading-[1.4]">
-          Estratégia personalizada, não um pacote pronto
-        </p>
-      </div>
-    </div>
-  );
-}
-
-function Frame43() {
-  return (
-    <div className="relative shrink-0 size-[22px]">
-      <svg
-        className="absolute block size-full"
-        fill="none"
-        preserveAspectRatio="none"
-        viewBox="0 0 22 22"
-      >
-        <g id="Frame 45_3">
-          <path d={svgPaths.pef7d600} fill="var(--fill-0, #D92B8A)" id="â_3" />
         </g>
       </svg>
     </div>
@@ -341,6 +241,10 @@ function Frame18() {
                   </div>
                   <div aria-hidden="true" className="absolute border border-[#f9f9f9] inset-0 pointer-events-none rounded-[16px]" />
                 </div>
+              </div>
+
+              <div hidden>
+                <input type="hidden" name="tags" value="8333429" />
               </div>
 
               <div aria-hidden="true" style={{ position: "absolute", left: "-5000px" }}>
@@ -704,38 +608,6 @@ function Frame51() {
       <div className="flex flex-col font-['Inter:Regular',sans-serif] font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#191919] text-[16px] whitespace-nowrap">
         <p className="leading-[31.5px]">Resultados recentes</p>
       </div>
-    </div>
-  );
-}
-
-function Textos() {
-  return (
-    <div className="absolute inset-[-0.02%_-0.02%_-0.08%_0]" data-name="Textos">
-      <svg
-        className="absolute block size-full"
-        fill="none"
-        preserveAspectRatio="none"
-        viewBox="0 0 92.0179 23.0223"
-      >
-        <g id="Textos">
-          <path
-            d={svgPaths.p34449c00}
-            fill="var(--fill-0, #E66C0B)"
-            id="Vector_3"
-          />
-        </g>
-      </svg>
-    </div>
-  );
-}
-
-function Inter() {
-  return (
-    <div
-      className="h-[23px] overflow-clip relative shrink-0 w-[92px]"
-      data-name="Inter 1"
-    >
-      <Textos />
     </div>
   );
 }
@@ -1121,138 +993,6 @@ function Textos4() {
       data-name="Textos"
     >
       <Group3 />
-    </div>
-  );
-}
-
-function UmMes() {
-  return (
-    <div
-      className="aspect-[96.52999877929688/25.350000381469727] overflow-clip relative size-full"
-      data-name="um mês 1"
-    >
-      <Textos4 />
-    </div>
-  );
-}
-
-function Group29() {
-  return (
-    <div className="absolute inset-[0_-0.01%_0.03%_-0.01%]" data-name="Group">
-      <svg
-        className="absolute block size-full"
-        fill="none"
-        preserveAspectRatio="none"
-        viewBox="0 0 71.0185 29.9911"
-      >
-        <g id="Group_4">
-          <path
-            d={svgPaths.p18277b00}
-            fill="var(--fill-0, #E52034)"
-            id="Vector_330"
-          />
-          <path
-            d={svgPaths.p1b9e5800}
-            fill="var(--fill-0, #E52034)"
-            id="Vector_2_4"
-          />
-          <path
-            d={svgPaths.p17856200}
-            fill="var(--fill-0, #E52034)"
-            id="Vector_3_4"
-          />
-          <path
-            d={svgPaths.p39dc1300}
-            fill="var(--fill-0, #E52034)"
-            id="Vector_4_3"
-          />
-          <path
-            d={svgPaths.p27a03b00}
-            fill="var(--fill-0, #E52034)"
-            id="Vector_5_3"
-          />
-          <path
-            d={svgPaths.p128c2700}
-            fill="var(--fill-0, #E52034)"
-            id="Vector_6_3"
-          />
-          <path
-            d={svgPaths.p298a8500}
-            fill="var(--fill-0, #E52034)"
-            id="Vector_7_3"
-          />
-          <path
-            d={svgPaths.p3ee2f400}
-            fill="var(--fill-0, #E52034)"
-            id="Vector_8_2"
-          />
-          <path
-            d={svgPaths.p47ee380}
-            fill="var(--fill-0, #E52034)"
-            id="Vector_9_2"
-          />
-          <path
-            d={svgPaths.p15084a00}
-            fill="var(--fill-0, #E52034)"
-            id="Vector_10_2"
-          />
-          <path
-            d={svgPaths.pbc74900}
-            fill="var(--fill-0, #E52034)"
-            id="Vector_11_2"
-          />
-          <path
-            d={svgPaths.p1951d600}
-            fill="var(--fill-0, #E52034)"
-            id="Vector_12_2"
-          />
-          <path
-            d={svgPaths.p39899b00}
-            fill="var(--fill-0, #E52034)"
-            id="Vector_13_2"
-          />
-          <path
-            d={svgPaths.p8df1200}
-            fill="var(--fill-0, #E52034)"
-            id="Vector_14_2"
-          />
-          <path
-            d={svgPaths.p1ab3e100}
-            fill="var(--fill-0, #E52034)"
-            id="Vector_15_2"
-          />
-          <path
-            d={svgPaths.p32c03a00}
-            fill="var(--fill-0, #E52034)"
-            id="Vector_16_2"
-          />
-          <path
-            d={svgPaths.p2aede980}
-            fill="var(--fill-0, #E52034)"
-            id="Vector_17_2"
-          />
-          <path
-            d={svgPaths.p3c81cf80}
-            fill="var(--fill-0, #E52034)"
-            id="Vector_18_2"
-          />
-          <path
-            d={svgPaths.p1587cbc0}
-            fill="var(--fill-0, #E52034)"
-            id="Vector_19_2"
-          />
-          <path
-            d={svgPaths.p2d371c0}
-            fill="var(--fill-0, #E52034)"
-            id="Vector_20_2"
-          />
-          <path
-            d={svgPaths.p94db080}
-            fill="var(--fill-0, #E52034)"
-            id="Vector_21_2"
-          />
-        </g>
-      </svg>
     </div>
   );
 }
