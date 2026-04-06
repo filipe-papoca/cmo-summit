@@ -8,10 +8,10 @@ import imgUltimosTresMeses from "@/assets/ultimos-3-meses.png";
 
 function Frame44() {
   return (
-    <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full">
+    <div className="content-stretch flex flex-col gap-[16px] md:items-start items-center relative shrink-0 w-full">
       <a href="#lead-form">
         <div className="bg-[#191919] content-stretch flex items-center justify-center pb-[10px] pt-[8px] px-[24px] relative shrink-0" data-name="CTA Papoca">
-          <div className="flex flex-col font-['Inter:Semi_Bold',sans-serif] font-semibold justify-center leading-[0] not-italic relative shrink-0 text-[#f9f9f9] text-[20px] sm:text-[24px] lg:text-[28px] tracking-[-0.96px] sm:tracking-[-1.12px] whitespace-normal sm:whitespace-nowrap">
+          <div className="flex flex-col font-['Inter:Semi_Bold',sans-serif] font-semibold items-center justify-center leading-[0] not-italic relative shrink-0 text-[#f9f9f9] text-[20px] sm:text-[24px] md:text-[28px] tracking-[-0.96px] sm:tracking-[-1.12px] whitespace-normal sm:whitespace-nowrap">
             <p className="leading-[normal]">Ver resultados</p>
           </div>
         </div>
@@ -27,7 +27,7 @@ function Titulo1() {
         <p className="leading-[1.3]">Resultados recentes</p>
       </div>
       <div className="flex flex-col font-['Inter:Bold',sans-serif] font-bold justify-center leading-[0] not-italic relative shrink-0 text-[#f9f9f9] text-[0px] tracking-[-1.2px] w-full">
-        <p className="text-[26px] sm:text-[32px] lg:text-[40px]">
+        <p className="text-[26px] sm:text-[32px] md:text-[40px]">
           <span className="font-['Inter:Bold',sans-serif] font-bold leading-[1.2] not-italic tracking-[-1.2px]">Nunca foi sorte.</span>
           <span className="leading-[1.2]">{` `}</span>
           <span className="font-['Inter:Bold',sans-serif] font-bold leading-[1.2] not-italic text-[#f9f9f9] tracking-[-1.2px]">{`Sempre foi `}</span>
@@ -38,7 +38,7 @@ function Titulo1() {
       <div className="flex flex-col font-['Inter:Light',sans-serif] font-light justify-center leading-[0] not-italic relative shrink-0 text-[#f9f9f9] text-[0px] tracking-[-0.32px] w-full">
         <p className="text-[16px]">
           <span className="leading-[1.4]">{`Inter, Zoop e Neosaldina não têm nada em comum. `}</span>
-          <span className="font-['Inter:Bold',sans-serif] font-bold leading-[1.4] not-italic tracking-[0.32px]">{`O que tem é resultado. `}</span>
+          <span className="font-['Inter:Bold',sans-serif] font-bold leading-[1.4] not-italic tracking-[0.32px]">{`O que tem é resultado.`}</span>
         </p>
       </div>
       <Frame44 />
@@ -155,7 +155,7 @@ function Frame48() {
 
 function Espaco1() {
   return (
-    <div className="bg-[#f9f9f9] content-stretch flex flex-col gap-[24px] items-start overflow-clip p-[24px] relative shrink-0 w-full lg:w-[596px]" data-name="Espaço">
+    <div className="bg-[#f9f9f9] content-stretch flex flex-col gap-[24px] items-start overflow-clip p-[24px] relative shrink-0 w-full md:w-[596px]" data-name="Espaço">
       <Frame47 />
       <Frame48 />
     </div>
@@ -164,7 +164,7 @@ function Espaco1() {
 
 export default function ResultadosSection() {
   return (
-    <div id="resultados" className="bg-[#d92b8a] w-full content-stretch flex flex-col lg:flex-row gap-6 lg:gap-[24px] items-start px-4 sm:px-8 lg:px-[75px] py-10 lg:py-[80px] relative shrink-0 w-full max-w-[1366px] mx-auto" data-name="Section 11">
+    <div id="resultados" className="bg-[#d92b8a] w-full content-stretch flex flex-col md:flex-row gap-6 md:gap-[24px] items-start px-4 sm:px-8 md:px-[75px] py-10 md:py-[80px] relative shrink-0 w-full max-w-[1366px] mx-auto" data-name="Section 11">
       <Titulo1 />
       <Espaco1 />
     </div>

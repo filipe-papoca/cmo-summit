@@ -3,13 +3,13 @@ import imgPalestra from "@/assets/pierre/palestra-pierre-cmo-summit.webp";
 
 export default function PalestraPierreSection() {
   return (
-    <section className="bg-[#191919] w-full content-stretch px-4 sm:px-8 lg:px-[75px] py-10 lg:py-[80px]">
-      <div className="max-w-[1366px] mx-auto grid gap-10 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] items-start">
+    <section className="bg-[#191919] w-full content-stretch px-4 sm:px-8 md:px-[75px] py-10 md:py-[80px]">
+      <div className="max-w-[1366px] mx-auto grid gap-10 md:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] items-start">
         <div className="flex flex-col gap-6">
           <div className="flex flex-col font-['Inter:Regular',sans-serif] font-normal justify-center leading-[0] not-italic text-[#f9f9f9] text-[16px] w-full">
             <p className="leading-[1.3]">CMO Summit 2026</p>
           </div>
-          <div className="flex flex-col font-['Inter:Bold',sans-serif] font-bold justify-center leading-[0] not-italic text-[#f9f9f9] text-[26px] sm:text-[32px] lg:text-[40px] tracking-[-1.2px] w-full">
+          <div className="flex flex-col font-['Inter:Bold',sans-serif] font-bold justify-center leading-[0] not-italic text-[#f9f9f9] text-[26px] sm:text-[32px] md:text-[40px] tracking-[-1.2px] w-full">
             <p>
               <span className="leading-[1.2]">GEO para CMOs: dominar o </span>
               <span className="leading-[1.2] text-[#d92b8a]">share of voice</span>

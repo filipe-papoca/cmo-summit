@@ -27,7 +27,7 @@ function Frame7() {
         data-name="CTA Papoca"
       >
         <div aria-hidden="true" className="absolute border-2 border-[#d92b8a] border-solid inset-0 pointer-events-none" />
-        <div className="flex flex-col font-['Inter:Semi_Bold',sans-serif] font-semibold justify-center leading-[0] not-italic relative shrink-0 text-[#f9f9f9] text-[18px] sm:text-[20px] lg:text-[24px] tracking-[-0.72px] sm:tracking-[-0.96px] whitespace-normal sm:whitespace-nowrap">
+        <div className="flex flex-col font-['Inter:Semi_Bold',sans-serif] font-semibold justify-center leading-[0] not-italic relative shrink-0 text-[#f9f9f9] text-[18px] sm:text-[20px] md:text-[24px] tracking-[-0.72px] sm:tracking-[-0.96px] whitespace-normal sm:whitespace-nowrap">
           <p className="leading-[normal]">Fale conosco</p>
         </div>
       </a>
@@ -109,7 +109,7 @@ function BlocoEsquerdo() {
         <div className="flex flex-col font-['Inter:Regular',sans-serif] font-normal justify-center leading-[0] not-italic text-[#f9f9f9] text-[16px] w-full">
           <p className="leading-[1.3]">CMO Summit 2026</p>
         </div>
-        <div className="flex flex-col font-['Inter:Bold',sans-serif] font-bold justify-center leading-[0] not-italic text-[#f9f9f9] text-[26px] sm:text-[32px] lg:text-[40px] tracking-[-1.2px] w-full">
+        <div className="flex flex-col font-['Inter:Bold',sans-serif] font-bold justify-center leading-[0] not-italic text-[#f9f9f9] text-[26px] sm:text-[32px] md:text-[40px] tracking-[-1.2px] w-full">
           <p>
             <span className="leading-[1.2]">GEO para CMOs: dominar o </span>
             <span className="leading-[1.2] text-[#d92b8a]">share of voice</span>
@@ -541,7 +541,7 @@ function Formulario() {
   return (
     <div
       id="contato"
-      className="bg-[rgba(25,25,25,0.94)] w-full lg:flex-[1_0_0] lg:min-h-px lg:min-w-px relative"
+      className="bg-[rgba(25,25,25,0.94)] w-full md:flex-[1_0_0] md:min-h-px md:min-w-px relative"
       data-name="Formulário"
     >
       <div className="overflow-clip rounded-[inherit] size-full">
@@ -565,7 +565,7 @@ function Formulario() {
 function PrimeiraSecao() {
   return (
     <div
-      className="content-stretch flex flex-col lg:flex-row gap-[24px] items-start relative shrink-0 w-full"
+      className="content-stretch flex flex-col md:flex-row gap-[24px] items-start relative shrink-0 w-full"
       data-name="Primeira seção"
     >
       <BlocoEsquerdo />
@@ -591,7 +591,7 @@ function Header() {
           }}
         />
       </div>
-      <div className="content-stretch flex flex-col items-start px-8 sm:px-8 lg:px-[75px] py-18 lg:py-[80px] relative w-full max-w-[1366px] mx-auto">
+      <div className="content-stretch flex flex-col items-start px-8 sm:px-8 md:px-[75px] py-18 md:py-[80px] relative w-full max-w-[1366px] mx-auto">
         <PrimeiraSecao />
       </div>
     </div>
@@ -873,7 +873,7 @@ function Titulo() {
       className="content-stretch flex flex-[1_0_0] flex-col gap-[40px] items-center min-h-px min-w-px relative"
       data-name="Título"
     >
-      <div className="flex flex-col font-['Inter:Bold',sans-serif] font-bold justify-center leading-[0] not-italic relative shrink-0 text-[#f9f9f9] text-[0px] text-[32px] sm:text-[48px] xl:text-[60px] tracking-[-0.5px] sm:tracking-[-1.92px] w-full text-center lg:text-left">
+      <div className="flex flex-col font-['Inter:Bold',sans-serif] font-bold justify-center leading-[0] not-italic relative shrink-0 text-[#f9f9f9] text-[0px] text-[32px] sm:text-[48px] xl:text-[60px] tracking-[-0.5px] sm:tracking-[-1.92px] w-full text-center md:text-left">
         <p className="mb-0">
           <span className="font-['Inter:Medium',sans-serif] font-medium leading-[1.1] not-italic tracking-[-1.92px]">
             Nunca foi
@@ -891,7 +891,7 @@ function Titulo() {
         </p>
       </div>
       <Divisor />
-      <div className="flex flex-col font-['Inter:Bold',sans-serif] font-bold justify-center leading-[0] not-italic relative shrink-0 text-[#f9f9f9] text-[14px] sm:text-[18px] lg:text-[24px] tracking-[0.48px] w-full text-center lg:text-left">
+      <div className="flex flex-col font-['Inter:Bold',sans-serif] font-bold justify-center leading-[0] not-italic relative shrink-0 text-[#f9f9f9] text-[14px] sm:text-[18px] md:text-[24px] tracking-[0.48px] w-full text-center md:text-left">
         <p>
           <span className="leading-[1.4]">{`A única agência boutique de SEO & GEO do Brasil. `}</span>
           <span className="font-['Inter:Regular',sans-serif] font-normal leading-[1.4] not-italic">
@@ -908,7 +908,7 @@ function Titulo() {
           aria-hidden="true"
           className="absolute border-2 border-[#051a30] border-solid inset-0 pointer-events-none"
         />
-        <div className="flex flex-col font-['Inter:Semi_Bold',sans-serif] font-semibold justify-center leading-[0] not-italic relative shrink-0 text-[#f9f9f9] text-[20px] sm:text-[24px] lg:text-[28px] tracking-[-1.12px] whitespace-normal sm:whitespace-nowrap">
+        <div className="flex flex-col font-['Inter:Semi_Bold',sans-serif] font-semibold justify-center leading-[0] not-italic relative shrink-0 text-[#f9f9f9] text-[20px] sm:text-[24px] md:text-[28px] tracking-[-1.12px] whitespace-normal sm:whitespace-nowrap">
           <p className="leading-[normal]">Agendar diagnóstico</p>
         </div>
       </div>
@@ -1279,10 +1279,10 @@ function NavbarResponsive() {
       className="bg-[#191919] shrink-0 w-full z-50 sticky top-0"
       data-name="Navbar"
     >
-      <div className="flex h-[80px] items-center justify-between px-4 sm:px-8 lg:px-[75px] w-full max-w-[1366px] mx-auto">
+      <div className="flex h-[80px] items-center justify-between px-4 sm:px-8 md:px-[75px] w-full max-w-[1366px] mx-auto">
         <Frame3 />
         <button
-          className="lg:hidden flex flex-col gap-[5px] p-2"
+          className="md:hidden flex flex-col gap-[5px] p-2"
           onClick={() => setOpen(!open)}
           aria-label="Menu"
         >
@@ -1298,7 +1298,7 @@ function NavbarResponsive() {
         </button>
       </div>
       {open && (
-        <div className="lg:hidden bg-[#191919] px-6 pb-6 flex flex-col gap-4">
+        <div className="md:hidden bg-[#191919] px-6 pb-6 flex flex-col gap-4">
           <a
             href="#lead-form"
             className="text-white font-semibold text-lg"

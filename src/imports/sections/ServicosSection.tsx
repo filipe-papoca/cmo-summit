@@ -4,10 +4,10 @@ export default function ServicosSection() {
   return (
     <section
       id="servicos"
-      className="bg-[#191919] px-4 sm:px-8 lg:px-[75px] py-10 lg:py-[80px] w-full"
+      className="bg-[#191919] px-4 sm:px-8 md:px-[75px] py-10 md:py-[80px] w-full"
       data-name="Section"
     >
-      <div className="max-w-[1366px] mx-auto grid gap-10 lg:grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)] items-start">
+      <div className="max-w-[1366px] mx-auto grid gap-10 md:grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)] items-start">
         <div className="flex flex-col gap-[24px]">
           <div className="flex flex-col font-['Inter:Regular',sans-serif] font-normal justify-center leading-[0] not-italic text-[#f9f9f9] text-[16px] w-full">
             <p className="leading-[1.3]">Serviços</p>
@@ -25,10 +25,10 @@ export default function ServicosSection() {
               Sem pacotes genéricos. Cada escopo é desenhado a partir do diagnóstico do seu negócio.
             </p>
           </div>
-          <a href="#lead-form" className="w-full lg:w-[413px]">
+          <a href="#lead-form" className="w-full md:w-[413px]">
             <div className="bg-[#d92b8a] content-stretch flex items-center justify-center pb-[10px] pt-[8px] px-[24px] relative shrink-0 w-full" data-name="CTA Papoca">
               <div aria-hidden="true" className="absolute border-2 border-[#d92b8a] border-solid inset-0 pointer-events-none" />
-              <div className="flex flex-[1_0_0] flex-col font-['Inter:Semi_Bold',sans-serif] font-semibold justify-center leading-[0] min-h-px min-w-px not-italic relative text-[#f9f9f9] text-[20px] sm:text-[24px] lg:text-[28px] tracking-[-0.96px] sm:tracking-[-1.12px] text-center sm:text-left">
+              <div className="flex flex-[1_0_0] flex-col font-['Inter:Semi_Bold',sans-serif] font-semibold justify-center leading-[0] min-h-px min-w-px not-italic relative text-[#f9f9f9] text-[20px] sm:text-[24px] md:text-[28px] tracking-[-0.96px] sm:tracking-[-1.12px] text-center sm:text-left">
                 <p className="leading-[normal]">Conversar sobre meu projeto</p>
               </div>
             </div>

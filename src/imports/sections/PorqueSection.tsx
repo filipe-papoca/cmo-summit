@@ -2,12 +2,12 @@ import React from "react";
 
 export default function PorqueSection() {
   return (
-    <div className="bg-[#f9f9f9] content-stretch flex items-center justify-center px-4 sm:px-8 lg:px-[75px] py-10 lg:py-[80px] relative shrink-0 w-full max-w-[1366px] mx-auto" data-name="Section 12">
+    <div className="bg-[#f9f9f9] content-stretch flex items-center justify-center px-4 sm:px-8 md:px-[75px] py-10 md:py-[80px] relative shrink-0 w-full max-w-[1366px] mx-auto" data-name="Section 12">
       <div className="content-stretch flex flex-col gap-[40px] items-center justify-center px-[24px] relative shrink-0 w-full max-w-[804px]" data-name="Título">
         <div className="flex flex-col font-['Inter:Regular',sans-serif] font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#191919] text-[16px] w-full">
           <p className="leading-[1.3]">Por que a Papoca?</p>
         </div>
-        <div className="flex flex-col font-['Inter:Bold',sans-serif] font-bold justify-center leading-[0] not-italic relative shrink-0 text-[#191919] text-[26px] sm:text-[32px] lg:text-[40px] tracking-[-1.2px] w-full">
+        <div className="flex flex-col font-['Inter:Bold',sans-serif] font-bold justify-center leading-[0] not-italic relative shrink-0 text-[#191919] text-[26px] sm:text-[32px] md:text-[40px] tracking-[-1.2px] w-full">
           <p>
             <span className="leading-[1.2]">{`A única agência boutique de `}</span>
             <span className="leading-[1.2] text-[#d92b8a]">{`SEO & GEO`}</span>
