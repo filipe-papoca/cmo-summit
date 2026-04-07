@@ -89,8 +89,8 @@ export default function HeroLlmSection() {
             </div>
 
             {/* RIGHT — Form */}
-            <div className="bg-white rounded-xl p-7 sm:p-9 shadow-2xl w-full">
-              <h3 className="font-['Inter',sans-serif] font-bold text-[22px] sm:text-[24px] text-[#0a0e27] mb-6">
+            <div className="bg-white p-7 sm:p-9 shadow-2xl w-full">
+              <h3 className="font-['Inter',sans-serif] text-center font-bold text-[22px] sm:text-[24px] text-[#0a0e27] mb-6">
                 Quero garantir minha vaga!
               </h3>
 
@@ -104,7 +104,7 @@ export default function HeroLlmSection() {
                       type="text" id="nome" name="nome"
                       value={formData.nome} onChange={handleChange}
                       placeholder="Seu nome completo"
-                      className="w-full px-4 py-3 border border-[#ddd] rounded-md font-['Inter',sans-serif] text-[14px] text-[#222] placeholder-[#bbb] focus:outline-none focus:ring-2 focus:ring-[#d92b8a] focus:border-transparent transition"
+                      className="w-full px-4 py-3 border border-[#ddd] font-['Inter',sans-serif] text-[14px] text-[#222] placeholder-[#bbb] focus:outline-none focus:ring-2 focus:ring-[#d92b8a] focus:border-transparent transition"
                       required
                     />
                   </div>
@@ -117,7 +117,7 @@ export default function HeroLlmSection() {
                       type="email" id="email" name="email"
                       value={formData.email} onChange={handleChange}
                       placeholder="seu@empresa.com"
-                      className="w-full px-4 py-3 border border-[#ddd] rounded-md font-['Inter',sans-serif] text-[14px] text-[#222] placeholder-[#bbb] focus:outline-none focus:ring-2 focus:ring-[#d92b8a] focus:border-transparent transition"
+                      className="w-full px-4 py-3 border border-[#ddd] font-['Inter',sans-serif] text-[14px] text-[#222] placeholder-[#bbb] focus:outline-none focus:ring-2 focus:ring-[#d92b8a] focus:border-transparent transition"
                       required
                     />
                   </div>
@@ -130,14 +130,14 @@ export default function HeroLlmSection() {
                       type="text" id="empresa" name="empresa"
                       value={formData.empresa} onChange={handleChange}
                       placeholder="Nome da empresa"
-                      className="w-full px-4 py-3 border border-[#ddd] rounded-md font-['Inter',sans-serif] text-[14px] text-[#222] placeholder-[#bbb] focus:outline-none focus:ring-2 focus:ring-[#d92b8a] focus:border-transparent transition"
+                      className="w-full px-4 py-3 border border-[#ddd] font-['Inter',sans-serif] text-[14px] text-[#222] placeholder-[#bbb] focus:outline-none focus:ring-2 focus:ring-[#d92b8a] focus:border-transparent transition"
                       required
                     />
                   </div>
 
                   <button
                     type="submit"
-                    className="w-full bg-[#d92b8a] hover:bg-[#c0246a] active:bg-[#a81e5b] text-white font-['Inter',sans-serif] font-bold text-[16px] py-3.5 rounded-md transition-colors mt-2"
+                    className="w-full bg-[#d92b8a] hover:bg-[#c0246a] active:bg-[#a81e5b] text-white font-['Inter',sans-serif] font-bold text-[16px] py-3.5 transition-colors mt-2"
                   >
                     Quero participar agora
                   </button>

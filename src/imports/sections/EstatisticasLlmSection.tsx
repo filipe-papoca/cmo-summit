@@ -66,7 +66,7 @@ export default function EstatisticasLlmSection() {
                     {stat.prefix}
                     {stat.valor}
                   </p>
-                  <p className="font-['Inter:Regular',sans-serif] font-normal text-[13px] sm:text-[14px] text-[#b3b3b3] leading-[1.4]">
+                  <p className="font-['Inter:Regular',sans-serif] font-normal text-[13px] md:text-[18px] text-white leading-[1.4]">
                     {stat.label}
                   </p>
                 </div>

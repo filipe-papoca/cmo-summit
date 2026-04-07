@@ -120,7 +120,7 @@ function BlocoEsquerdo() {
           <img
             src={imgPalestra}
             alt="Palestra no CMO Summit sobre GEO"
-            className="w-full h-[270px] rounded-md object-cover object-center"
+            className="w-full h-[270px] object-cover object-center"
           />
         </div>
       </div>

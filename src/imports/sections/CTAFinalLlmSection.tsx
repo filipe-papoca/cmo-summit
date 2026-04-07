@@ -14,7 +14,7 @@ export default function CTAFinalLlmSection() {
 
           <a
             href="#form-llm"
-            className="inline-block bg-white text-[#d92b8a] font-['Inter:Bold',sans-serif] font-bold px-8 py-3 rounded-md hover:bg-[#f0f0f0] transition-colors"
+            className="inline-block bg-white text-[#d92b8a] font-['Inter:Bold',sans-serif] font-bold px-8 py-3 hover:bg-[#f0f0f0] transition-colors"
           >
             Entre em contato
           </a>

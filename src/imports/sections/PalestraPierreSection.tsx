@@ -17,7 +17,7 @@ export default function PalestraPierreSection() {
             </p>
           </div>
           <div className="rounded-[2px] overflow-hidden">
-            <img src={imgPalestra} alt="Palestra no CMO Summit sobre GEO" className="w-full h-[270px] rounded-md object-cover object-center" /> 
+            <img src={imgPalestra} alt="Palestra no CMO Summit sobre GEO" className="w-full h-[270px] object-cover object-center" /> 
           </div>
         </div>
 
