@@ -5,10 +5,18 @@ import LpPapocaLlm from "../imports/LpPapocaLlm";
 export const router = createBrowserRouter([
   {
     path: "/",
-    element: <LpCmo />,
+    element: <LpPapocaLlm />,
+  },
+  {
+    path: "/webinar-GEO",
+    element: <LpPapocaLlm />,
   },
   {
     path: "/llm",
     element: <LpPapocaLlm />,
+  },
+  {
+    path: "/cmo-summit",
+    element: <LpCmo />,
   },
 ]);

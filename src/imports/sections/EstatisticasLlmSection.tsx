@@ -32,7 +32,7 @@ export default function EstatisticasLlmSection() {
   return (
     <section
       id="estatisticas"
-      className="relative w-full bg-[#0a0e27] px-4 sm:px-8 md:px-[75px] py-16 md:py-24"
+      className="relative w-full bg-[#051a30] px-4 sm:px-8 md:px-[75px] py-16 md:py-24"
     >
       <div className="max-w-[1366px] mx-auto">
         <div className="grid gap-8 md:grid-cols-2 items-center">
@@ -49,7 +49,7 @@ export default function EstatisticasLlmSection() {
                 Não falamos sobre lorem. Apresentamos o que aprendemos processando milhões de iterações em projetos reais e 815 análises.
               </p>
               <p className="font-['Inter:Light',sans-serif] font-light text-[14px] sm:text-[16px] leading-[1.6]">
-                Analise de 7 LLMs diferentes: ChatGPT, Claude, Gemini, Perplexity, Deepseek, Google AI e Deepseek.
+                Análise de 7 LLMs diferentes: ChatGPT, Claude, Gemini, Perplexity, Deepseek, Google AI e Deepseek.
               </p>
             </div>
           </div>
@@ -59,14 +59,14 @@ export default function EstatisticasLlmSection() {
             {stats.map((stat, index) => (
               <div
                 key={index}
-                className="border border-[#1a1f3a] rounded-lg p-6 sm:p-8 bg-gradient-to-br from-[#191f35] to-[#0a0e27]"
+                className="border border-[#1e3b57] rounded-lg p-6 sm:p-8"
               >
                 <div className="flex flex-col gap-2">
                   <p className="font-['Inter:Bold',sans-serif] font-bold text-[32px] sm:text-[40px] md:text-[48px] text-[#d92b8a] leading-[1]">
                     {stat.prefix}
                     {stat.valor}
                   </p>
-                  <p className="font-['Inter:Regular',sans-serif] font-normal text-[13px] md:text-[18px] text-white leading-[1.4]">
+                  <p className="font-['Inter:Regular',sans-serif] font-normal text-[13px] md:text-[18px] text-[#f9f9f9] leading-[1.4]">
                     {stat.label}
                   </p>
                 </div>

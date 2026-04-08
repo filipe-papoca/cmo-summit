@@ -31,37 +31,28 @@ export default function ProgramaLlmSection() {
   return (
     <section
       id="programa"
-      className="w-full bg-white px-4 sm:px-8 md:px-[75px] py-16 md:py-24"
+      className="w-full bg-[#f9f9f9] px-4 sm:px-8 md:px-[75px] py-16 md:py-24"
     >
       <div className="max-w-[1366px] mx-auto">
-        {/* Label */}
         <p className="font-['Inter',sans-serif] font-normal text-[#d92b8a] text-[13px] uppercase tracking-widest mb-6">
           O PROGRAMA
         </p>
 
-        {/* Heading */}
-        <h2 className="font-['Inter',sans-serif] font-bold text-[32px] sm:text-[44px] md:text-[52px] leading-[1.15] text-[#0a0e27] tracking-tight mb-8 max-w-[900px]">
+        <h2 className="font-['Inter',sans-serif] font-bold text-[32px] sm:text-[44px] leading-[1.15] text-[#051a30] tracking-tight mb-8">
           O que você vai aprender em 50 minutos de imersão.
         </h2>
 
-        {/* Description */}
         <p className="font-['Inter',sans-serif] font-normal text-[16px] sm:text-[18px] leading-[1.6] text-[#444] mb-16 max-w-[860px]">
-          Depois do sucesso da{" "}
-          <span className="text-[#d92b8a] font-medium">
-            palestra do Pierre Veyrat no CMO Summit
-          </span>
-          , e de muitos pedidos de quem não pode estar presente, vamos apresentar
-          o conteúdo na íntegra neste webinar.
+          Depois do sucesso da <span className="text-[#d92b8a] font-medium">palestra do Pierre Veyrat no CMO Summit</span>, e de muitos pedidos de quem não pode estar presente, vamos apresentar o conteúdo na íntegra neste webinar.
         </p>
 
-        {/* Steps Grid */}
         <div className="grid gap-10 sm:grid-cols-2 md:grid-cols-4">
           {steps.map((step, i) => (
-            <div key={i} className="flex flex-col gap-4">
+            <div key={i} className="grid grid-rows-[auto_auto_1fr] gap-4">
               <span className="font-['Inter',sans-serif] font-bold text-[80px] md:text-[100px] leading-none text-[#e8eaf0] select-none">
                 {step.numero}
               </span>
-              <h3 className="font-['Inter',sans-serif] font-bold text-[16px] sm:text-[17px] leading-[1.3] text-[#0a0e27]">
+              <h3 className="font-['Inter',sans-serif] font-bold text-[16px] sm:text-[17px] leading-[1.3] text-[#051a30] min-h-[44px]">
                 {step.titulo}
               </h3>
               <p className="font-['Inter',sans-serif] font-normal text-[14px] sm:text-[15px] leading-[1.6] text-[#666]">

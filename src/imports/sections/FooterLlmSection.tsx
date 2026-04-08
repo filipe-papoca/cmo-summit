@@ -3,23 +3,18 @@ import imgLogo from "@/assets/logo-papoca.png";
 
 export default function FooterLlmSection() {
   return (
-    <footer className="w-full bg-[#191919] border-t border-[#1a1f3a] px-4 sm:px-8 md:px-[75px] py-12 md:py-16">
+    <footer className="w-full bg-[#191919] px-4 sm:px-8 md:px-[75px] py-12 md:py-16">
       <div className="max-w-[1366px] mx-auto">
-        <div className="grid gap-8 md:grid-cols-1 mb-8">
-          {/* Logo & Description */}
+        <div className="mb-8">
           <div className="flex flex-col gap-4">
             <img src={imgLogo} alt="Agência Papoca" className="h-[90px] w-fit" />
-            <p className="font-['Inter',sans-serif] font-light text-[14px] text-[#b3b3b3] leading-[1.6]">
+            <p className="font-['Inter',sans-serif] font-light text-[16px] text-[#b3b3b3] leading-[1.6]">
               Somos uma agência boutique. Unimos consultoria em SEO e a excelência em criação de conteúdo. Possuímos equipes especializadas em SEO, Marketing de Conteúdo e Inbound Marketing para fazer sua empresa crescer.
             </p>
           </div>
-
-          {/* Empty column for spacing */}
-          <div />
         </div>
 
-        {/* Bottom bar */}
-        <div className="border-t border-[#1a1f3a] pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="font-['Inter',sans-serif] font-light text-[12px] text-[#666]">
             © {new Date().getFullYear()} - Agência Papoca
           </p>

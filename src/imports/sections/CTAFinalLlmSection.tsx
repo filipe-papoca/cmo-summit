@@ -8,13 +8,13 @@ export default function CTAFinalLlmSection() {
     >
       <div className="max-w-[1366px] mx-auto">
         <div className="flex flex-col items-center text-center gap-8">
-          <h2 className="font-['Inter:Bold',sans-serif] font-bold text-[32px] sm:text-[40px] md:text-[48px] leading-[1.2] text-white">
+          <h2 className="font-['Inter:Bold',sans-serif] font-bold text-[32px] sm:text-[40px] md:text-[48px] leading-[1.2] text-[#f9f9f9]">
             Quer saber como sua marca aparece nas LLMs?
           </h2>
 
           <a
             href="#form-llm"
-            className="inline-block bg-white text-[#d92b8a] font-['Inter:Bold',sans-serif] font-bold px-8 py-3 hover:bg-[#f0f0f0] transition-colors"
+            className="inline-block bg-[#f9f9f9] text-[#d92b8a] md:text-[28px] font-['Inter:Bold',sans-serif] font-bold px-8 py-3 hover:bg-[#ececec] transition-colors"
           >
             Entre em contato
           </a>
