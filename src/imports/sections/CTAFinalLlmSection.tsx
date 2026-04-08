@@ -13,7 +13,7 @@ export default function CTAFinalLlmSection() {
           </h2>
 
           <a
-            href="#form-llm"
+            href="#hero"
             className="inline-block bg-[#f9f9f9] text-[#d92b8a] md:text-[28px] font-['Inter:Bold',sans-serif] font-bold px-8 py-3 hover:bg-[#ececec] transition-colors"
           >
             Entre em contato
