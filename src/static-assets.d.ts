@@ -4,6 +4,7 @@ declare module "*.jpeg";
 declare module "*.gif";
 declare module "*.svg";
 declare module "*.webp";
+declare module "*.md?raw";
 
 interface ImportMetaEnv {
   readonly VITE_MAILSEND_API_KEY?: string;

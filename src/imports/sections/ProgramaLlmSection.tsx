@@ -42,7 +42,7 @@ export default function ProgramaLlmSection() {
           O que você vai aprender em 50 minutos de imersão.
         </h2>
 
-        <p className="font-['Inter',sans-serif] font-normal text-[16px] sm:text-[18px] leading-[1.6] text-[#444] mb-16 max-w-[860px]">
+        <p className="font-['Inter',sans-serif] font-normal text-[16px] sm:text-[18px] leading-[1.6] text-[#444] mb-16">
           Depois do sucesso da <span className="text-[#d92b8a] font-medium">palestra do Pierre Veyrat no CMO Summit</span>, e de muitos pedidos de quem não pode estar presente, vamos apresentar o conteúdo na íntegra neste webinar.
         </p>
 

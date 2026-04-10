@@ -6,7 +6,7 @@ export default function HeaderLlmSection() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-[#051a30] border-b border-[#0f2a45]">
-      <div className="relative z-10 px-4 sm:px-8 md:px-[75px]">
+      <div className="relative max-w-[1366px] mx-auto w-full w-full px-4 sm:px-8 md:px-[75px]">
         <div className="flex items-center h-24">
           <a href="#hero" className="flex-shrink-0">
             <img src={imgLogo} alt="Agência Papoca" className="h-14 w-auto max-w-[86px]" />

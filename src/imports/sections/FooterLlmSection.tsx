@@ -4,7 +4,7 @@ import imgLogo from "@/assets/logo-papoca.png";
 export default function FooterLlmSection() {
   return (
     <footer className="w-full bg-[#191919] px-4 sm:px-8 md:px-[75px] py-12 md:py-16">
-      <div className="max-w-[1366px] mx-auto">
+      <div className="max-w-[1366px] mx-auto w-full">
         <div className="mb-8">
           <div className="flex flex-col gap-4">
             <img src={imgLogo} alt="Agência Papoca" className="h-[90px] w-fit" />
