@@ -7,7 +7,9 @@ export default function FooterLlmSection() {
       <div className="max-w-[1366px] mx-auto w-full">
         <div className="mb-8">
           <div className="flex flex-col gap-4">
-            <img src={imgLogo} alt="Agência Papoca" className="h-[90px] w-fit" />
+            <a href="#hero">
+              <img src={imgLogo} alt="Agência Papoca" className="h-[90px] w-fit" />
+            </a>
             <p className="font-['Inter',sans-serif] font-light text-[16px] text-[#b3b3b3] leading-[1.6]">
               Somos uma agência boutique. Unimos consultoria em SEO e a excelência em criação de conteúdo. Possuímos equipes especializadas em SEO, Marketing de Conteúdo e Inbound Marketing para fazer sua empresa crescer.
             </p>
