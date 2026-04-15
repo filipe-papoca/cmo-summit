@@ -1,5 +1,5 @@
 import React from "react";
-import imgPierre from "@/assets/pierre/pierre-veyrat.jpg";
+import imgPierre from "@/assets/pierre/pierre-veyrat.webp";
 
 export default function PalestranteLlmSection() {
   return (
