@@ -6,8 +6,8 @@ export default function HeaderLlmSection() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-[#051a30] border-b border-[#0f2a45]">
-      <div className="max-w-[1366px] mx-auto w-full px-6">
-        <div className="flex items-center h-24">
+      <div className="w-full px-4 sm:px-8 md:px-[75px]">
+        <div className="max-w-[1366px] mx-auto w-full flex items-center h-24">
           <a href="#hero" className="flex-shrink-0">
             <img src={imgLogo} alt="Agência Papoca" className="h-14 w-auto max-w-[86px]" />
           </a>
@@ -17,7 +17,7 @@ export default function HeaderLlmSection() {
               <a href="#hero" className="text-[#f9f9f9] font-['Inter',sans-serif] text-[15px] hover:text-[#d92b8a] transition-colors">
                 Home
               </a>
-              <a href="#programa" className="text-[#f9f9f9] font-['Inter',sans-serif] text-[15px] hover:text-[#d92b8a] transition-colors">
+              <a href="https://agenciapapoca.com.br/blog" target="_blank" rel="noopener noreferrer" className="text-[#f9f9f9] font-['Inter',sans-serif] text-[15px] hover:text-[#d92b8a] transition-colors">
                 Blog
               </a>
               <a href="#cta-final" className="text-[#f9f9f9] font-['Inter',sans-serif] text-[15px] hover:text-[#d92b8a] transition-colors">

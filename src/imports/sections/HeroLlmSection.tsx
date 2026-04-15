@@ -24,7 +24,7 @@ export default function HeroLlmSection() {
       <div className="absolute inset-0 bg-gradient-to-r from-[#000]/95 via-[#000]/80 to-[#000]/55" />
       <div className="absolute inset-0 bg-gradient-to-b from-[#000]/60 via-transparent to-[#000]/40" />
       
-      <div className="relative z-10 px-4 sm:px-8 min-h-screen flex items-center">
+      <div className="relative z-10 px-4 px-4 sm:px-8 md:px-[75px] min-h-screen flex items-center">
         <div className="max-w-[1366px] mx-auto w-full">
           <div className="grid gap-10 md:gap-16 md:grid-cols-[minmax(0,1.1fr)_minmax(0,0.9fr)] items-center">
             <div className="flex flex-col gap-7">

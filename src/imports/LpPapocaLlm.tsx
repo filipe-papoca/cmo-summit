@@ -38,13 +38,13 @@ export default function LpPapocaLlm() {
   }, []);
 
   return (
-    <main className="w-full bg-[#0a0e27]">
+    <main className="w-full bg-[#0a0e27] overflow-x-hidden">
       <HeaderLlmSection />
-        <HeroLlmSection />
-        <ProgramaLlmSection />
-        <EstatisticasLlmSection />
-        <PalestranteLlmSection />
-        <CTAFinalLlmSection />
+      <HeroLlmSection />
+      <ProgramaLlmSection />
+      <EstatisticasLlmSection />
+      <PalestranteLlmSection />
+      <CTAFinalLlmSection />
       <FooterLlmSection />
     </main>
   );
